@@ -10,6 +10,9 @@ lerna-debug.log*
 node_modules
 .serverless
 coverage
+infra/cdk.out
+infra/cdk-outputs.json
+infra/node_modules
 dist
 dist-ssr
 *.local
