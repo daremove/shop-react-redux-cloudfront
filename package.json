@@ -17,7 +17,7 @@
     "cdk:diff": "cd infra && npx cdk diff",
     "cdk:bootstrap": "cd infra && npx cdk bootstrap",
     "cloudfront:invalidate-cache": "node scripts/invalidate-cache.js",
-    "cloudfront:build:deploy": "VITE_PRODUCT_API_PREFIX=37uyxha2b6 npm run cdk:deploy && npm run cloudfront:invalidate-cache",
+    "cloudfront:build:deploy": "VITE_PRODUCT_API_PREFIX=37uyxha2b6 VITE_IMPORT_API_PREFIX=gbllkdsv63 npm run cdk:deploy && npm run cloudfront:invalidate-cache",
     "cloudfront:domain-info": "node scripts/domain-info.js"
   },
   "dependencies": {
